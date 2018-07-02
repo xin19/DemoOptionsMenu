@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_copy"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title="複製"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_paste"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="貼上"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_about"
+        android:title="關於" />
+    <item
+        android:id="@+id/item_exit"
+        android:title="離開" />
+</menu>
